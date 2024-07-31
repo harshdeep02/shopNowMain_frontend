@@ -1,0 +1,106 @@
+.footerMain {
+    background-color: #212121;
+    width: 100%;
+    object-fit: contain;
+}
+
+.homeCardListMain:nth-child(10) {
+    margin-bottom: 70px;
+}
+
+.upperFooter {padding: 60px;display: flex;}
+
+.upperFootLeft {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    color: #fff;
+    font-family: 'Inter';
+}
+
+.upperFootRight {
+    width: 700px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerCategory, .footerCompnies, .mailText, .AddressText, .socialText {
+    color: #9b9292;
+    font-size: 13px;
+    padding-bottom: 16px;
+}
+
+
+.footerCategoryList> ul, .comniesList>ul {
+    font-size: 13px;
+}
+.footerCategoryList> ul>li, .comniesList>ul>li{
+    list-style:none;
+}
+.footerCategoryList> ul>li, .comniesList>ul>li{
+        padding: 3px 0;
+        font-weight: 600;
+}
+.footerCategoryList> ul>li>a:hover, .comniesList>ul>li>a:hover{
+    text-decoration:underline;
+}
+
+.upperFootMiddle {
+    border-left: 1px solid #7c7373;
+    width: 0;
+    margin: 0px 35px;
+}
+
+
+.mailAddress, .flipkartAddress {
+    font-size: 12px;
+}
+
+.mailAddress>p, .flipkartAddress>p {
+        padding: 3px 0;
+        font-weight: 400;
+        /* font-family: 'Inter'; */
+}
+.flipkartAddress p:last-child a{
+    color: #84b6ff;
+}
+
+.socialText {}
+
+.socialLogos {
+    display: flex;
+    gap: 8px;
+}
+
+.social {
+    padding-top: 30px;
+}
+
+.facebookLogo, .youtubeLogo, .twitterLogo {
+    height: 28px;
+    width: 28px;
+}
+.facebookLogo a, .youtubeLogo a, .twitterLogo a{
+    display:block;
+    width:28px;
+}
+.facebookLogo img, .youtubeLogo img, .twitterLogo img {
+width:100%;
+    height:100%;
+}
+
+.middleFooter {
+    border-top: 1px solid #7c7373;
+    margin: 0px 0;
+}
+
+.lowerFooter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyRight {
+    color: #fff;
+    font-size: 13px;
+}

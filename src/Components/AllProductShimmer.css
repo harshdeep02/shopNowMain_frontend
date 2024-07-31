@@ -1,0 +1,47 @@
+.allProductShimmer .cardImgOuter {
+    background: gainsboro;
+}
+
+.allProductShimmer .cardBodyOuter {
+    padding: 0 37px;
+}
+
+.allProductShimmer .cardDiscription {
+    background: gainsboro;
+    padding: 0;
+    height: 55px;
+}
+
+.allProductShimmer .cardBodyOuter .productRating {
+    padding: 0;
+    background: gainsboro;
+    margin: 10px 4px;
+    height: 14px;
+}
+
+.allProductShimmer .rating_brand {
+    background: gainsboro;
+    padding: 0;
+    margin: 10px 4px;
+    height: 14px;
+}
+
+.allProductShimmer .price {
+    background: gainsboro;
+    height: 14px;
+    margin: 10px 4px;
+    padding: 0;
+    width: 115px;
+}
+
+.allProductShimmer .avalability {
+    padding: 0;
+    height: 12px;
+    background: gainsboro;
+    width: 115px;
+    margin: 10px 4px;
+}
+
+.allProductShimmer .cardInnerMain {
+    padding: 80px;
+}

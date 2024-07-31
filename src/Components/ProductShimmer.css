@@ -1,0 +1,60 @@
+.productShimmer .productImg {
+    background: gainsboro;
+    /* background: #e3e1e1; */
+}
+
+.productShimmer .productImgSec {
+    display: flex;
+}
+
+.productShimmer .productTitle>div {
+    background: gainsboro;
+    height: 17px;
+    padding: 0;
+    max-width: 400px;
+}
+
+.productShimmer .productPrice {
+    background: gainsboro;
+    height: 17px;
+    width: 101px;
+}
+
+.productShimmer .productDesc {
+    margin: 10px 0;
+    background: gainsboro;
+    height: 84px;
+    max-width: 500px;
+    width:100%;
+}
+
+.productShimmer .productSize {
+    height: 10px;
+    background: gainsboro;
+    width: 100px;
+}
+
+.productShimmer .productStock {
+    height: 17px;
+    background: gainsboro;
+    width: 60px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+
+.productContainer.productShimmer {
+    padding: 66px 15px;
+}
+
+.productShimmer .productImgSec {
+    height: 350px;
+   max-width: 600px;
+   width:100%;
+}
+
+.productShimmer .productBodySec{
+    max-width: 550px;
+    width:100%;
+    padding-left: 16px;
+}

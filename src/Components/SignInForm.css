@@ -1,0 +1,71 @@
+/* SignInForm.css */
+
+.formContainer {
+    max-width: 600px;
+    width:100%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .formContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+  
+  .formContainer  h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333;
+    padding: 15px;
+  }
+  
+  .formContainer label {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    max-width: 450px;
+    width: 100%;
+  }
+  
+  .formContainer  label span {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .formContainer  input[type="text"],
+  .formContainer  input[type="email"],
+  .formContainer  input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .formContainer button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 13px;
+  }
+  
+  .formContainer button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .signup, .loginText {
+    text-align: right;
+    width: 100%;
+    color: #3939ff;
+    font-size: 14px;
+    padding: 17px;
+}
