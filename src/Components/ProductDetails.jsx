@@ -39,7 +39,7 @@ export const ProductDetails = () => {
       const {token} = JSON.parse(localStorage.getItem('userData'))
       // console.log(token);
 
-      const response = await fetch(`http://127.0.0.1:5000/category/${prams.category}`, {
+      const response = await fetch(`https://shopnowmain-backend.onrender.com/category/${prams.category}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
