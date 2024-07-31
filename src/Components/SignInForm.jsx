@@ -21,7 +21,7 @@ const SignInForm = () => {
       setLoading(true)
 
       // const response = await fetch("https://shopnow-r8ja.onrender.com/signup", {
-      const response = await fetch("http://localhost:5000/signup", {
+      const response = await fetch("https://shopnowmain-backend.onrender.com/signup", {
          method: "POST",
         //  mode: 'no-cors',
          headers: {

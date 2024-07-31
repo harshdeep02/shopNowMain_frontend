@@ -29,7 +29,7 @@ export const Cart = () => {
     useEffect(()=>{
       setUser(name)
       const getProducts= async()=>{
-        const response = await fetch('http://127.0.0.1:5000/cart',{
+        const response = await fetch('https://shopnowmain-backend.onrender.com/cart',{
           method: "GET",
           headers:{
             "Content-Type": "application/json",

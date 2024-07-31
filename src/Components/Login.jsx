@@ -24,7 +24,7 @@ export const Login = () => {
      setLoading(true)
 
     //  const response = await fetch("https://shopnow-r8ja.onrender.com/login", {
-     const response = await fetch("http://127.0.0.1:5000/login", {
+     const response = await fetch("https://shopnowmain-backend.onrender.com/login", {
         method: "POST",
         // mode: 'no-cors',
         headers: {

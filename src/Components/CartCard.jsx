@@ -8,7 +8,7 @@ export const CartCard = ({title,id, img, category, stock, price, rating,}) => {
     const { token } = JSON.parse(localStorage.getItem("userData"));
 
     const fetchData = async () => {
-      const response = await fetch("http://127.0.0.1:5000/cart", {
+      const response = await fetch("https://shopnowmain-backend.onrender.com/cart", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
